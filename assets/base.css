@@ -2772,3 +2772,7 @@ details-disclosure > details {
     }
   }
 }
+
+.bg-color {
+  background-color: gray;
+}
