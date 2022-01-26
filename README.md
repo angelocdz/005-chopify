@@ -115,3 +115,13 @@ web browser
             005-chopify
 Successfully integrated github to our shopify store.
 ```
+
+## Publish your theme
+
+```
+shopify
+  online store, themes
+    005-chopify/main, actions, publish, publish
+
+Successfully published the 005-chopify theme now it's on production or live.
+```
