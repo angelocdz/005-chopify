@@ -4,7 +4,7 @@
 005
 ```
 
-## Create a store using shopify partner = d
+## Create a store using shopify partner
 
 ## Install shopify CLI
 
@@ -86,6 +86,32 @@ web browser
   https://github.com/angelocdz/005-chopify
 ```
 
-## Push your theme to a new GitHub repo
+## Install the Shopify GitHub integration and connect your branch to your store
 
+```
+https://005-chopify.myshopify.com/admin
+  online store, themes, add theme, connect from github
+    select, 005-chopify, connect, click x icon
+      005-chopify/main
+```
 
+## Test your connection
+
+```
+vi config/settings_schema.json
+  "theme_name": "005-chopify"
+
+git add .
+git commit -m 'Updated Theme Name to 005-chopify.'
+git push -u origin main
+
+web browser
+  Check github if push is successful.
+  https://005-chopify.myshopify.com/admin
+    online store, themes
+      005-chopify/main
+        customize
+          Click the 3 dots then it will display.
+            005-chopify
+Successfully integrated github to our shopify store.
+```
